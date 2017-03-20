@@ -43,15 +43,12 @@ class Greetings extends React.Component {
           <div className="row">
             <div className="col-sm-4">
               <h2>Pick up surplus food</h2>
-              <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
             <div className="col-sm-4">
               <h2>Deliver the goods to those in need</h2>
-              <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
             <div className="col-sm-4">
               <h2>Earn reward points while reducing waste</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
           </div>
         </div>
@@ -59,7 +56,6 @@ class Greetings extends React.Component {
           <div className="row">
             <div className="col-lg-12">
               <h2>Join in, make a difference, and save a few bucks.</h2>
-              <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
               <Link className="page-scroll" to="/signup"><button className="btn btn-lg">Sign up</button></Link>
             </div>
           </div>
