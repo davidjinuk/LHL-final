@@ -43,9 +43,6 @@ class DashboardMain extends React.Component {
             Redeem Points
           </div>
           <div className="panel-body">
-            1000 points = $10 fuel card
-            50 points per box
-            {this.props.reward_points}
             <div className="col-md-5">
               <div className="box-panel panel panel-default">
                 <img src="/pictures/dashboard/fuel-graphic.png" alt="Gas Image"/>
@@ -70,6 +67,9 @@ class DashboardMain extends React.Component {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="text-center">
+                <h4>Redeem 1000 points for a $10 fuel voucher!</h4>
               </div>
             </div>
           </div>

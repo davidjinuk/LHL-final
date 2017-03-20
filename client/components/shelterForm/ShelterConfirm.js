@@ -46,7 +46,6 @@ class ShelterForm extends React.Component {
           <thead>
             <tr>
               <th>Transporter</th>
-              <th>Package Origin</th>
               <th>Boxes of Produce</th>
               <th>Boxes of Baked Goods</th>
               <th>Boxes of Dairy</th>
@@ -56,7 +55,6 @@ class ShelterForm extends React.Component {
           <tbody>
             <tr scope="row">
               <td>{this.props.user.first_name} {this.props.user.last_name}</td>
-              <td>{this.props.grocery.name}</td>
               <td>{this.typeNum('Produce', this.props.boxes)}</td>
               <td>{this.typeNum('Baked Goods', this.props.boxes)}</td>
               <td>{this.typeNum('Dairy', this.props.boxes)}</td>

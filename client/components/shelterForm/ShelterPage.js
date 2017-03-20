@@ -8,7 +8,7 @@ class ShelterPage extends React.Component {
   render() {
     const { addFlashMessage } = this.props;
     return (
-      <div>
+      <main>
         <div className="col-md-2"></div>
         <div className="col-md-8">
           <ShelterConfirm
@@ -16,7 +16,7 @@ class ShelterPage extends React.Component {
           />
         </div>
         <div className="col-md-2"></div>
-      </div>
+      </main>
     );
   }
 }

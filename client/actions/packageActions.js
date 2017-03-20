@@ -37,7 +37,7 @@ export function postPackageData(data) {
     .then(res => {
       const packageArray = res.request.response;
       //temporarily disabling Twilio SMS notifications below
-      // axios.get('/api/notifications');
+      axios.get('/api/notifications');
     });
   }
 }
